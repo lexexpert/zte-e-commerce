@@ -3,11 +3,11 @@ import './signInUp.scss';
 import SignIn from "../../components/SignIn/SignIn";
 import SignUp from "../../components/SignUp/SignUp";
 
-const SignInUp = () => (
+const SignInUpPage = () => (
   <div className={'sign-in-up'}>
     <SignIn/>
     <SignUp/>
   </div>
 );
 
-export default SignInUp;
+export default SignInUpPage;
