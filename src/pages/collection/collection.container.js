@@ -2,7 +2,7 @@ import {createStructuredSelector} from "reselect";
 import {selectIsCollectionsLoaded} from "../../redux/shop/shop.selectors";
 import {compose} from "redux";
 import {connect} from "react-redux";
-import Spinner from "../../components/Spinner/Spinner";
+import SpinnerIsLoading from "../../components/SpinnerIsLoading/SpinnerIsLoading";
 import CollectionPage from "./CollectionPage";
 
 
@@ -12,7 +12,7 @@ const mapStateToProps = createStructuredSelector({
 
 const CollectionPageContainer = compose(
   connect(mapStateToProps),
-  Spinner
+  SpinnerIsLoading
 )(CollectionPage);
 
 export default CollectionPageContainer;
