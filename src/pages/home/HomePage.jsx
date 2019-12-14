@@ -3,7 +3,6 @@ import Directory from "../../components/Directory/Directory";
 import './homePage.scss';
 
 const HomePage = () => {
-  throw Error;
   return (
     <div className='homepage'>
       <h1>Welcome to my Homepage</h1>
